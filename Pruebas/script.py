@@ -16,7 +16,6 @@ def comandos(string):
         os.system("sudo chown erick:erick " + line)
     os.system("ls -l /home/erick/Documentos/OS/Pruebas/Ejemplo1/" + string + "/")
 
-os.system("sudo rm -R /home/erick/Documentos/OS/Pruebas/Ejemplo1/")
 os.system("mkdir /home/erick/Documentos/OS/Pruebas/Ejemplo1/")
 os.system("mkdir /home/erick/Documentos/OS/Pruebas/Ejemplo1/img/")
 os.system("mkdir /home/erick/Documentos/OS/Pruebas/Ejemplo1/pdf/")
